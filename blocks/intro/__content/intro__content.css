@@ -1,0 +1,32 @@
+/*Я обернул контент секции в дополнительный блок, чтобы его левый отступ был равен
+отступу секции lead при ширине экрана более 1024 пикселей. Если содержимое intro
+будет совпадать по ширине с самым большим элементом lead (lead__image) и располагаться
+по центру, то его левый отступ будет равен левому отступу lead__image не только на
+переломных точках, но и на промежуточных разрешениях.*/
+
+.intro__content {
+  margin: auto;
+  width: 984px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro__content {
+    width: 928px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .intro__content {
+    margin-right: 24px;
+    margin-left: 24px;
+    width: auto;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .intro__content {
+    margin-right: 16px;
+    margin-left: 16px;
+    width: auto;
+  }
+}
