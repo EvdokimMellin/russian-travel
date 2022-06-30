@@ -50,16 +50,16 @@
 
 @media all and (max-width: 767px) {
   .place {
-    grid-template-columns: 100vw;
-    grid-template-rows: 35px 46px 100vw 1fr;
+    grid-template-columns: minmax(320px, 767px);
+    grid-template-rows: 35px 46px auto 1fr;
     row-gap: 32px;
   }
 
   .place:first-of-type {
-    grid-template-rows: 35px 46px 100vw 1fr;
+    grid-template-rows: 35px 46px auto 1fr;
   }
 
   .place:nth-of-type(4) {
-    grid-template-rows: 35px 46px 100vw 1fr;
+    grid-template-rows: 35px 46px auto 1fr;
   }
 }
