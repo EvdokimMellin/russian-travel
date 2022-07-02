@@ -11,7 +11,7 @@
     <header class="header">
       <img src="./images/header-logo.svg" alt="Изображение" class="header__logo">
       <div class="header__lang-links">
-        <a class="header__lang-link" href="#">Ru</a>
+        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
         <a class="header__lang-link" href="#">En</a>
       </div>
     </header>
@@ -27,27 +27,22 @@
       <section class="intro">
         <div class="intro__content">
           <h2 class="intro__title">Чего мы там не видели?</h2>
-          <article class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</article>
+          <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
           <ul class="intro__list">
             <li class="intro__item">
-              <p class="intro__item-text">Часовых поясов</p>
-              <p class="intro__item-number">&nbsp;11</p>
+              Часовых поясов <span class="intro__item-number">11</span>
             </li>
             <li class="intro__item">
-              <p class="intro__item-text">Объектов природного наследия ЮНЕСКО</p>
-              <p class="intro__item-number">&nbsp;12</p>
+              Объектов природного наследия ЮНЕСКО <span class="intro__item-number">12</span>
             </li>
             <li class="intro__item">
-              <p class="intro__item-text">Объектов культурного наследия ЮНЕСКО</p>
-              <p class="intro__item-number">&nbsp;16</p>
+              Объектов культурного наследия ЮНЕСКО <span class="intro__item-number">16</span>
             </li>
             <li class="intro__item">
-              <p class="intro__item-text">Природных заповедников</p>
-              <p class="intro__item-number">&nbsp;105</p>
+              Природных заповедников <span class="intro__item-number">105</span>
             </li>
             <li class="intro__item">
-              <p class="intro__item-text">Аэропортов</p>
-              <p class="intro__item-number">&nbsp;241</p>
+              Аэропортов <span class="intro__item-number">241</span>
             </li>
           </ul>
         </div>
@@ -71,9 +66,9 @@
       <section class="places">
         <ul class="places__list">
           <li class="place">
-            <h3 class="place__title">Куршская коса</h3>
+            <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a class="place__link" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a>
             </div>
             <img src="./images/place-kosa.jpg" alt="Изображение" class="place__image">
@@ -83,9 +78,9 @@
             </div>
           </li>
           <li class="place">
-            <h3 class="place__title">Кольский</h3>
+            <h2 class="place__title">Кольский</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a class="place__link" target="_blank" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
             </div>
             <img src="./images/place-kolsky.jpg" alt="Изображение" class="place__image">
@@ -95,9 +90,9 @@
             </div>
           </li>
           <li class="place">
-            <h3 class="place__title">Алтай</h3>
+            <h2 class="place__title">Алтай</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a class="place__link" target="_blank" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
             </div>
             <img src="./images/place-altai.jpg" alt="Изображение" class="place__image">
@@ -107,9 +102,9 @@
             </div>
           </li>
           <li class="place">
-            <h3 class="place__title">Зимний Байкал</h3>
+            <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a class="place__link" target="_blank" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
             </div>
             <img src="./images/place-winter-baikal.jpg" alt="Изображение" class="place__image">
@@ -119,9 +114,9 @@
             </div>
           </li>
           <li class="place">
-            <h3 class="place__title">Карелия</h3>
+            <h2 class="place__title">Карелия</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a class="place__link" target="_blank" href="http://vodlozero.ru">http://vodlozero.ru/</a>
             </div>
             <img src="./images/place-karelia.jpg" alt="Изображение" class="place__image">

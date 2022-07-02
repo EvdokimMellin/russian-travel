@@ -6,4 +6,6 @@
   color: #aaa;
   margin-bottom: 12px;
   margin-top: 0;
+  text-transform: uppercase;
+  display: block;
 }
